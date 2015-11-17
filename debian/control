@@ -1,0 +1,29 @@
+Source: golang-github-linkeddata-gojsonld
+Section: devel
+Priority: extra
+Maintainer: Debian Go Packaging Team <pkg-go-maintainers@lists.alioth.debian.org>
+Uploaders: Markus Sabadello <markus@projectdanube.org>
+Build-Depends: debhelper (>= 9),
+               dh-golang,
+               golang-go
+Standards-Version: 3.9.6
+Homepage: https://github.com/linkeddata/gojsonld
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-go/packages/golang-github-linkeddata-gojsonld.git
+Vcs-Git: git://anonscm.debian.org/pkg-go/packages/golang-github-linkeddata-gojsonld.git
+XS-Go-Import-Path: github.com/linkeddata/gojsonld
+
+Package: golang-github-linkeddata-gojsonld-dev
+Architecture: all
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         golang-go
+Description: 
+ gojsonld gojsonld is a library that implements support for the
+ JSON-LD format in the Go programming languages and implements
+ all of the algorithms specified by the JSON-LD processing API
+ (http://www.w3.org/TR/json-ld-api/).  Using gojsonld The public
+ API methods are located in the api.go file, along with more relevant
+ documentation.  Test suite This library passes all the test in the most
+ recent test suite for JSON-LD, located at http://json-ld.org/test-suite/
+ .
+ In order to run the tests, type go test in the gojsonld directory.
