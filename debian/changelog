@@ -1,5 +1,5 @@
 golang-github-linkeddata-gojsonld (0.0~git20150331.0.a223ef3-1) UNRELEASED; urgency=medium
 
-  * Initial release (Closes: TODO)
+  * Initial release
 
  -- Markus Sabadello <markus@projectdanube.org>  Tue, 17 Nov 2015 14:01:42 +0100
